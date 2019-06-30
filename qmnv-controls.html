@@ -1,0 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>量驰新视觉</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="常用控件">
+        <meta name="author" content="Alex Liu">
+        
+        <!-- Le styles -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/docs.css" rel="stylesheet">
+        <link href="qmnv-assets/css/qmnv-elements.css" type="text/css" media="screen" rel="stylesheet">
+
+        
+    </head>
+
+	<body>
+	
+    <!--TOP-->
+  	<div class="top_line">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-lg-6">
+					<p class="feed "><strong>量驰智能</strong> | 因为梦想，我们在一起</p>
+    			</div>
+                <div class="col-lg-6 soc_icons">
+                    <a href="#"><div class="icon_qszg"></div></a>
+                    <a href="#"><div class="icon_xjzf"></div></a>
+                    <a href="#"><div class="icon_zywf"></div></a>
+                    <a href="#"><div class="icon_qszk"></div></a>
+                    <a href="#"><div class="icon_home"></div></a>
+                </div>
+    		</div>
+    	</div>
+    </div>
+    <!--/TOP-->
+    
+    <!--PAGE HEAD-->
+    <div class="page_head">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-lg-4">
+                	<div class="logo">
+                    	<a href="index.html"><img src="qmnv-assets/img/logo.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                	<nav>
+                	<ul id="menu">
+                            <li ><a href="qmnv-home.html">首页</a></li>
+                            <li ><a href="qmnv-layout.html">布局和版式</a></li>
+                            <li><a href="qmnv-panels.html">面板和标题</a></li>
+                            <li><a href="qmnv-contents.html">内容构件</a></li>
+                            <li class="active"><a href="qmnv-controls.html">交互构件</a></li>
+                            <li><a href="qmnv-resource.html">资源库</a></li>
+                            <li><a href="qmnv-data-visual.html">数据视觉</a></li>
+                            <li><a href="qmnv-special-effects.html">前端特效</a></li>
+                    </ul>
+                    </nav>
+                </div>
+    		</div>
+    	</div>
+    </div>
+    <!--/PAGE HEAD-->
+	
+    <!--WELCOME AREA-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-header">
+                        <strong>UI交互构件</strong> <span class="small-text">(版本0.1 更新@2019.02.26)</span>
+                    </div>
+                    <div class="card-body">
+                        <p class="small-text"><em>UI交互构件库是量驰新视觉的视觉库之一，内容包括用户交互经常使用的UI元素，包括输入框、单选、复选、进度条、按钮、标签、选择框等，
+                        其目的在于，通过持续的构建，最终形成一套经过验证的、可稳定使用的新型UI库，以支持量驰智能、授权会员相关的前端开发。
+                        </em></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <!--/WELCOME AREA-->
+    
+    <!--PAGE CONTENT-->
+    <div class="container" style="margin-bottom:50px;">
+        <div class="row">
+            <div class="col-lg-12">
+                <section>
+                    <h5><span class="colored">01</span> 常规文本输入框</h5>
+                    <hr>
+                    <!--输入文本框-->
+                </section>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-3">
+                    <p >请输入指定的文本 </p>
+                </div>
+                <div class="col-lg-2">
+                    <div class="input-group">
+                        <label class="input-label" for="input-name">姓名(必填)</label>
+                        <input id="input-name" class="input-field" type="text" />
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="input-group">
+                        <label class="input-label" for="input-alias">曾用名</label>
+                        <input id="input-alias" class="input-field" type="text" />
+                    </div>
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <section>
+                    <h5><span class="colored">02</span> 电子邮箱输入框</h5>
+                    <hr>
+                    <!--输入文本框-->
+                </section>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-3">
+                    <p >请输入电子邮件 </p>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="section-info">
+                        <div class="seprate"></div>
+                        <div class="section-title">电子邮箱是您的唯一登录凭证</div>
+                        <div class="section-desc">(必填)</div>
+                    </div>
+                    <div class="input-group">
+                        <label class="input-label" for="input-email">email@company.com</label>
+                        <input id="input-email" class="input-field" type="email" />
+                        <span class="email-error-info"><i class="icofont-info-circle"></i> 电子邮件地址要包括前缀、@符以及公司、机构域名</span>
+                    </div>
+                </div>
+        </div>      
+
+        <div class="row">
+            <div class="col-lg-12">
+                <section>
+                    <h5><span class="colored">?</span> 多行输入框</h5>
+                    <hr>
+                    <!--输入文本框-->
+                </section>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-3">
+                    <p >请输入指定的文本 </p>
+                </div>
+                <div class="col-lg-5">
+                    <div class="input-group">
+                        <div id="textarea-simulator" class="textarea-wrap-box" contenteditable="true"></div>
+                        <input id="textarea-content" name="ct_node_brief" type="hidden" />
+                    </div>
+                </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <section>
+                    <h5><span class="colored">?</span> 图片上传</h5>
+                    <hr>
+                    <!--输入文本框-->
+                </section>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col-lg-3">
+                    <p >请选择文件并上传图片 </p>
+                </div>
+                <div class="col-lg-9">
+                    <div class="input-group">
+                        <div class="picture-uploader">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="upload-file-select">
+                                        <img class="media-selector" src="qmnv-assets/img/upload-p.png">
+                                        <input type="file" class="__hidden_media_file__">
+                                    </div>
+                                    <div class="picture-loader toggle">
+                                        <div class="progress" style="height:13px;">
+                                            <div class="progress-bar progress-bar-info progress-bar-striped active" style="width:85%;"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="upload-desc">
+                                        <span><strong><i class="icofont-mouse" style="font-size:16px;"></i> 图片上传要求</strong></span>
+                                        <ul class="upload-terms">
+                                            <li>
+                                                文件格式为PNG/JPG
+                                            </li>
+                                            <li>
+                                                文件大小不超过1M
+                                            </li>
+                                        </ul>                    
+                                    </div>               
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <section>
+                    <h5><span class="colored">03</span> 选择输入框</h5>
+                    <hr>
+                    <!--输入文本框-->
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <p >选择框用以完成对特定候选项的选择 </p>
+            </div>
+
+            <div class="col-lg-5">
+                <div class="input-group">
+                    <label class="input-label" for="input-career">请选择您的职业</label>
+                    <div class="wrap-box">
+                        <select id="input-career" class="select-field">
+                            <option value ="volvo">学生</option>
+                            <option value ="saab">公司员工</option>
+                            <option value="opel">自由职业者</option>
+                            <option value="audi">公务员</option>
+                            <option value="audi">其它...</option>
+                        </select>
+                        <div class="down-icon-fix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>      
+
+
+        <div class="row">
+            <div class="col-lg-12">
+                <section>
+                    <h5><span class="colored">04</span> 单选按钮</h5>
+                    <hr>
+                    <!--输入文本框-->
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <p >请选择您性别 </p>
+            </div>
+            <div class="col-lg-5">
+                <div class="section-info red">
+                        <div class="seprate"></div>
+                        <div class="section-title">竖排样式</div>
+                        <div class="section-desc">(带注释)</div>
+                </div>
+                <div>
+                    <div class="wrap-check">
+                        <input id="s1" type="radio" name="sex" value="male"/><label for="s1"> 男性</label>
+                        <div class="check-desc">毋庸置疑，您是男生</div>
+                        <hr class="qmnv-hr">
+                        <input id="s2" type="radio" name="sex" value="female"/><label for="s2"> 女性</label>
+                        <div class="check-desc">毋庸置疑，您是女生</div>
+                        <hr class="qmnv-hr">
+                        <input id="s3" type="radio" name="sex" value="unknown"/><label for="s3"> 保密</label>
+                        <div class="check-desc">关于这点，什么也不想透露</div>
+                    </div>
+                    </div>
+
+                <div class="section-info red">
+                        <div class="seprate"></div>
+                        <div class="section-title">横排样式</div>
+                        <div class="section-desc">(字典项选择)</div>
+                </div>
+                <div class="wrap-check-group">
+                    <fieldset tabindex="0" class='radio-group'>
+                        <legend><i class="icofont-circled-right"></i>您的年龄</legend>
+                        <input id='g1o1' name="group1" value="option1" checked type="radio">
+                        <label for='g1o1'>小于18</label>
+                        <input id='g1o2' name="group1" value="option2" type="radio">
+                        <label for='g1o2'>18-40</label>
+                        <input id='g1o3' name="group1" value="option3" type="radio">
+                        <label for='g1o3'>41-60</label>
+                        <input id='g1o4' name="group1" value="option4" type="radio">
+                        <label for='g1o4'>大于60</label>
+                    </fieldset>
+                </div>
+
+            </div>
+        </div>      
+  
+
+        <div class="row">
+                <div class="col-lg-12">
+                    <section>
+                        <h5><span class="colored">05</span> 复选按钮</h5>
+                        <hr>
+                        <!--输入文本框-->
+                    </section>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <p >请选择您的兴趣爱好 </p>
+            </div>
+            <div class="col-lg-3">
+                <div class="wrap-check">
+                    <input id="i1" type="checkbox" name="interests" value="travel"/><label for="i1"> 旅游</label>
+                    <div class="check-desc">世界这么大，我想去看看</div>
+                    <input id="i2" type="checkbox" name="interests" value="reading"/><label for="i2"> 读书</label>
+                    <div class="check-desc">毕竟，书是人类进步的阶梯</div>
+                    <input id="i3" type="checkbox" name="interests" value="fitting"/><label for="i3"> 健身</label>
+                    <div class="check-desc">我就我，一部行走的机器</div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                    <div class="wrap-check">
+                        <input id="i4" type="checkbox" name="interests" value="invest"/><label for="i4"> 投资</label>
+                        <div class="check-desc">你不理财，才不理你</div>
+                        <input id="i5" type="checkbox" name="interests" value="movie"/><label for="i5"> 电影</label>
+                        <div class="check-desc">看电影，发现另一个世界的自己</div>
+                        <input id="i6" type="checkbox" name="interests" value="food"/><label for="i6"> 美食</label>
+                        <div class="check-desc">民以食为天，我的理想是大厨</div>
+                    </div>
+            </div>
+        </div>      
+  
+    <div class="row">
+            <div class="col-lg-12">
+                <section>
+                    <h5><span class="colored">？</span> 多级分类选择</h5>
+                    <hr>
+                    <!--输入文本框-->
+                </section>
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <p >请选择您的兴趣爱好 </p>
+        </div>
+        <div class="col-lg-9">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="top-category">
+                        <span class="top-title">旅游</span>
+                    </div>
+                    <div class="row ind-10">
+                        <div class="col-lg-4">
+                                <div class="second-category">
+                                    <span class="second-title">国内游</span>
+                                </div>
+                                <ul class="third-category">
+                                    <li>
+                                        <span class="third-title">北京</span>
+                                    </li>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <ul class="forth-category">
+                                                <li>
+                                                    <span class="forth-title">长城</span>
+                                                </li>
+                                                <li>
+                                                    <span class="forth-title">故宫</span>
+                                                </li>
+                                                <li>
+                                                    <span class="forth-title">香山</span>
+                                                </li>
+                                                <li>
+                                                    <span class="forth-title">后海</span>
+                                                </li>
+                                                <li>
+                                                    <span class="forth-title">天坛</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </ul>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="second-category">
+                                <span class="second-title">国外游</span>
+                            </div>
+                            <ul class="third-category">
+                                <li>
+                                    <span class="third-title">亚洲</span>
+                                </li>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul class="forth-category">
+                                            <li>
+                                                <span class="forth-title">东京</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">大阪</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">北海道</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">名古屋</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">京都</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <li>
+                                    <span class="third-title">泰国</span>
+                                </li>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul class="forth-category">
+                                            <li>
+                                                <span class="forth-title">曼谷</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">清迈</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="second-category">
+                                <span class="second-title">自驾游</span>
+                            </div>
+                            <ul class="third-category">
+
+                                <li>
+                                    <span class="third-title">浙江</span>
+                                </li>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul class="forth-category">
+                                            <li>
+                                                <span class="forth-title">曼谷</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">清迈</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="second-category">
+                                <span class="second-title">自驾游</span>
+                            </div>
+                            <ul class="third-category">
+                                <li>
+                                    <span class="third-title">江苏</span>
+                                </li>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul class="forth-category">
+                                            <li>
+                                                <span class="forth-title">苏州</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">无锡</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">南通</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">泰州</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">扬州</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <li>
+                                    <span class="third-title">浙江</span>
+                                </li>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul class="forth-category">
+                                            <li>
+                                                <span class="forth-title">杭州</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">宁波</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="top-category">
+                        <span class="top-title">旅游</span>
+                    </div>
+                    <div class="row ind-10">
+                        <div class="col-lg-4">
+                                <div class="second-category">
+                                    <span class="second-title">国内游</span>
+                                </div>
+                                <ul class="third-category">
+                                    <li>
+                                        <span class="third-title">北京</span>
+                                    </li>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <ul class="forth-category">
+                                                <li>
+                                                    <span class="forth-title">长城</span>
+                                                </li>
+                                                <li>
+                                                    <span class="forth-title">故宫</span>
+                                                </li>
+                                                <li>
+                                                    <span class="forth-title">香山</span>
+                                                </li>
+                                                <li>
+                                                    <span class="forth-title">后海</span>
+                                                </li>
+                                                <li>
+                                                    <span class="forth-title">天坛</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </ul>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="second-category">
+                                <span class="second-title">国外游</span>
+                            </div>
+                            <ul class="third-category">
+                                <li>
+                                    <span class="third-title">亚洲</span>
+                                </li>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul class="forth-category">
+                                            <li>
+                                                <span class="forth-title">东京</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">大阪</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">北海道</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">名古屋</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">京都</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <li>
+                                    <span class="third-title">泰国</span>
+                                </li>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul class="forth-category">
+                                            <li>
+                                                <span class="forth-title">曼谷</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">清迈</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="second-category">
+                                <span class="second-title">自驾游</span>
+                            </div>
+                            <ul class="third-category">
+
+                                <li>
+                                    <span class="third-title">浙江</span>
+                                </li>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul class="forth-category">
+                                            <li>
+                                                <span class="forth-title">曼谷</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">清迈</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="second-category">
+                                <span class="second-title">自驾游</span>
+                            </div>
+                            <ul class="third-category">
+                                <li>
+                                    <span class="third-title">江苏</span>
+                                </li>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul class="forth-category">
+                                            <li>
+                                                <span class="forth-title">苏州</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">无锡</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">南通</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">泰州</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">扬州</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <li>
+                                    <span class="third-title">浙江</span>
+                                </li>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <ul class="forth-category">
+                                            <li>
+                                                <span class="forth-title">杭州</span>
+                                            </li>
+                                            <li>
+                                                <span class="forth-title">宁波</span>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                
+
+            </div>
+
+        </div>
+
+    </div>      
+
+
+
+    <div class="row">
+            <div class="col-lg-12">
+                <section>
+                    <h5><span class="colored">？</span> 多级分类结果</h5>
+                    <hr>
+                    <!--输入文本框-->
+                </section>
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3">
+            <p >请选择您的兴趣爱好 </p>
+        </div>
+        <div class="col-lg-9">
+            <div class="row">
+                <div class="utilities-bar">
+                    <ul class="tool-group">
+                        <li><i class="icofont-gear"></i></li>
+                        <li><i class="icofont-refresh"></i></li>
+                        <li><i class="icofont-listing-box"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wrap-category">
+                <div class="row">
+                    <div class="col-lg-2">
+
+                            <span class="cate-title"><i class="icofont-folder" style="font-size:14px;"></i> 旅游</span>
+ 
+                    </div>
+                    <div class="col-lg-10">
+                        <div class="sub-category">
+                           
+                            <ul>
+                                <li>出境游</li>
+                                <li>亚洲国家</li>
+                                <li>印度尼西亚</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-2">
+                            <span class="cate-title"><i class="icofont-folder" style="font-size:14px;"></i> 读书</span>
+                    </div>                    
+                    <div class="col-lg-10">
+                        <div class="sub-category">
+                            <ul>
+                                <li>经典</li>
+                                <li>国学</li>
+                                <li>道德经</li>
+                                <li>李耳</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2">
+                        <span class="cate-title"><i class="icofont-folder" style="font-size:14px;"></i> 电影</span>
+                    </div>                      
+                    <div class="col-lg-10">
+                            <div class="sub-category">                               
+                                <ul>
+                                    <li>纪录片</li>
+                                    <li>欧洲</li>
+                                    <li>德国</li>
+                                    <li>柏林二战</li>
+                                </ul>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>      
+
+
+
+        <div class="row">
+            <div class="col-lg-12">
+                <section>
+                    <h5><span class="colored">06</span> 特定信息采集框</h5>
+                    <hr>
+                    <!--输入文本框-->
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <p >采集特定信息，如银行卡、限定数量、手机号码、货币金额等,
+                    其特点是信息具有针对性，且附有一组特定的规则。 </p>
+            </div>
+            <div class="col-lg-5">
+                <div class="input-group">
+                    <label class="input-label" for="input-card">银行卡号</label>
+                    <div class="input-rules">
+                        <i class="icofont-question-circle">
+                            <span>
+                                <i class="icofont-info-circle"></i> 支持建设银行，工商银行，农业银行和中国银行<br>
+                                <i class="icofont-info-circle"></i> 因特定原因，所有国外行暂不支持
+                            </span>
+                        </i>
+                    </div>
+                    <div class="special-decorate-bankcard">
+                        <input id="input-card" class="input-field bank-card" type="text" />
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-label" for="input-quantity">当前数量</label>
+                    <div class="input-rules"><i class="icofont-question-circle">
+                        <span>
+                            <i class="icofont-info-circle"></i> 请填写购买数量<br>      
+                        </span>           
+                    </i></div>
+                    <div class="special-decorate-num">
+                        <input id="input-quantity" class="input-field quantity-num" type="text"/>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-label" for="input-mobile">手机号码</label>
+                    <div class="special-decorate-mobile">
+                        <input id="input-mobile" class="input-field mobile-number" type="text" />
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label class="input-label" for="input-currency">金额</label>
+                    <div class="special-decorate-currency">
+                        <input id="input-currency" class="input-field currency-num" type="text"/>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                        <label class="input-label" for="input-date">选择日期</label>
+                        <div class="special-decorate-date">
+                            <input id="input-date" class="input-field date-setting" type="text"/>
+                        </div>
+                </div>
+
+                <div class="wrap-file-upload">
+                        <div class="file-label">选择文件1</div>
+                        <div class="file-list">
+                            <i class="icofont-ui-file"> </i> <span class="file-name">尚未选择文件</span>
+                        </div>
+
+                        <div class="file-selector">
+                            <i class="icofont-folder"></i>
+                        </div>
+                        <input type="file" class="__hidden_input_file__">
+                </div>
+                
+                <div class="wrap-file-upload">
+                    <div class="file-label">选择文件2</div>
+                    <div class="file-list">
+                        <i class="icofont-ui-file"> </i> <span class="file-name">尚未选择文件</span>
+                    </div>
+
+                    <div class="file-selector">
+                        <i class="icofont-folder"></i>
+                    </div>
+                    <input type="file" class="__hidden_input_file__">
+                </div>
+
+            </div>
+        </div>      
+
+
+
+
+        <!--
+        <div class="row">
+            <div class="col-lg-12">
+                <section>
+                    <h5><span class="colored">07</span> 验证码</h5>
+                    <hr>
+
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <p >用以限制操作人提交网页的频率 </p>
+            </div>
+            <div class="col-lg-5">
+                <div class="wrap-captcha">
+                    <div class="captcha-result pass">
+                            验证通过
+                    </div>
+                    <div class="captcha-potrait">
+                        <img src="qmnv-assets/captcha/portraits/PT0001.png">
+                        <div class="potrait-actions">
+                            <ul>
+                                <li>
+                                    <i class="icofont-refresh"> 换一张</i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="captcha-rules">
+                        <div class="captcha-title">
+                            人机验证
+                        </div>
+
+                        <div class="captcha-desc">
+                            左图出现的人物是？
+                        </div>
+                        <div class="captcha-answer">
+                            <ul>
+                                <li>爱因斯坦</li>
+                                <li>牛顿</li>
+                                <li>爱迪生</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>      
+
+        -->
+
+        <div class="row">
+            <div class="col-lg-12">
+                <section>
+                    <h5><span class="colored">07</span> 进度条</h5>
+                    <hr>
+                    <!--输入文本框-->
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <p >显示操作进度 </p>
+            </div>
+            <div class="col-lg-5">
+                <div class="wrap-progress-bar black">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: 85%;"></div>
+                        </div>
+                        <div class="progress-value">下载进度85%</div>
+                </div>
+                <div class="wrap-progress-bar">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 75%;"></div>
+                        </div>
+                        <div class="progress-value black">下载进度75%</div>
+                    </div>
+                    <div class="wrap-progress-bar">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-warning progress-bar-striped active" style="width: 90%;"></div>
+                        </div>
+                        <div class="progress-value black">下载进度90%</div>
+                    </div>
+                    <div class="wrap-progress-bar darkblue">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-danger progress-bar-striped active" style="width: 60%;"></div>
+                        </div>
+                        <div class="progress-value">下载进度60%</div>
+                    </div>
+            </div>
+        </div>      
+
+
+
+        <div class="row">
+            <div class="col-lg-12">
+                <section>
+                    <h5><span class="colored">08</span> TAB控件</h5>
+                    <hr>
+                    <!--输入文本框-->
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3">
+                <p >TAB控件用来分切页面内容 </p>
+            </div>
+            <div class="col-lg-5">
+                <div class="wrap-tab">
+                    <div class='tabbed round'>
+                        <ul>
+                            <li class="tab-item active" tab-link="#t1">
+                                首页
+                            </li>
+                            <li class="tab-item" tab-link="#t2">
+                                第二页
+                            </li>
+                            <li class='tab-item' tab-link="#t3">
+                                第三页
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-config">
+                        <div id="t1" class="tab-page active">这是第一页</div>
+                        <div id="t2" class="tab-page">这是第二页</div>
+                        <div id="t3" class="tab-page">这是第三页</div>
+                    </div>
+                </div>
+            </div>
+        </div>      
+
+
+
+        <div class="row">
+            <div class="col-lg-12">
+                <section>
+                    <h5><span class="colored">09</span> 按钮</h5>
+                    <hr>
+                    <!--输入文本框-->
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <p >按钮用以接受用户指令 </p>
+            </div>
+            <div class="col-lg-5">
+                <div class="wrap-button">
+                        <div class="input-button btn-desc ripple-effect">
+                                立即下载 (<span> 文件大小：<em>0.04</em> M</span>)
+                        </div>
+                </div>
+                <br>
+
+            </div>
+        </div>      
+
+
+    </div>
+    <!--PAGE CONTENT-->
+    
+	<!--FOOTER-->
+    <footer>
+    	<div class="container">
+        	<div class="row">
+            	
+                <div class="col-lg-3">
+                	<img src="qmnv-assets/img/logo-bottom.png" alt="" />
+                	<p>量驰新视觉实验室是关注互联网应用全新用户体验的工作团队，目标是通过设计和完善,持续稳定的输出超出用户预期的新体验。
+                    量驰新视觉通过广泛的吸收和不断的创新，从而打造出新型的互联网UI基础支持服务，并按照IGOGF（智慧型成长组织治理框架）标准为对应客户提供支持。<br></p>
+                </div>
+                
+
+                <div class="col-lg-3">
+                    <p></p>
+    
+                </div>
+
+
+                <div class="col-lg-3">
+                    <h6 class="sep_bg">分析和数据</h6>
+                    <hr>
+                    <P>
+                        <i class=" icon-signal  icon-white"></i> 截止目前，发布UI元素总数：123
+                    </P>
+                    
+                </div>
+                
+
+                
+                <div class="col-lg-3">
+                    <h6 class="sep_bg">联系我们</h6>
+                    <hr>
+                    <p>
+                        <i class="icon-user  icon-white"></i> Alex Liu<br>
+                        <i class="icon-envelope icon-white"></i> doublex.org@163.com<br>
+                        <i class="icon-globe icon-white"></i> 中国.上海 浦东新区芳华路933弄 
+                    </p>
+
+                </div>
+                
+            </div>
+        </div>
+    	<hr class="bottom">
+        <div class="bottom_line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <span style="font-size:11px;">版权所有(C)上海量驰智能科技有限公司 <a href="#">链接地址</a></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/FOOTER-->
+    
+    
+
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="qmnv-assets/js/qmnv-elements.js"></script>
+    </body>
+</html>

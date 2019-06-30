@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>量驰新视觉</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="常用控件">
+        <meta name="author" content="Alex Liu">
+        
+        <!-- Le styles -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/docs.css" rel="stylesheet">
+        <link href="qmnv-assets/css/qmnv-panels.css" type="text/css" media="screen" rel="stylesheet">
+        <link href="qmnv-assets/css/qmnv-contents.css" type="text/css" media="screen" rel="stylesheet">
+        
+    </head>
+
+	<body>
+	
+    <!--TOP-->
+  	<div class="top_line">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-lg-6">
+					<p class="feed "><strong>量驰智能</strong> | 因为梦想，我们在一起</p>
+    			</div>
+                <div class="col-lg-6 soc_icons">
+                    <a href="#"><div class="icon_qszg"></div></a>
+                    <a href="#"><div class="icon_xjzf"></div></a>
+                    <a href="#"><div class="icon_zywf"></div></a>
+                    <a href="#"><div class="icon_qszk"></div></a>
+                    <a href="#"><div class="icon_home"></div></a>
+                </div>
+    		</div>
+    	</div>
+    </div>
+    <!--/TOP-->
+    
+    <!--PAGE HEAD-->
+    <div class="page_head">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-lg-4">
+                	<div class="logo">
+                    	<a href="index.html"><img src="qmnv-assets/img/logo.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                	<nav>
+                	<ul id="menu">
+                            <li ><a href="qmnv-home.html">首页</a></li>
+                            <li ><a href="qmnv-layout.html">布局和版式</a></li>
+                            <li ><a href="qmnv-panels.html">面板和标题</a></li>
+                            <li class="active"><a href="qmnv-contents.html">内容构件</a></li>
+                            <li><a href="qmnv-controls.html">交互构件</a></li>
+                            <li><a href="qmnv-resource.html">资源库</a></li>
+                            <li><a href="qmnv-data-visual.html">数据视觉</a></li>
+                            <li><a href="qmnv-special-effects.html">前端特效</a></li>
+                    </ul>
+                    </nav>
+                </div>
+    		</div>
+    	</div>
+    </div>
+    <!--/PAGE HEAD-->
+	
+    <!--WELCOME AREA-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                    <div class="card text-dark bg-light">
+                        <h6 class="card-header d-flex justify-content-between">
+                            <div>
+                                <i class="ion ion-md-paper font-30 mr-10"></i>
+                                内容构件
+                                </div>
+                                <div>
+                                <span class="small-text">版本0.1 更新@2019.03.21</span>
+                                </div>
+                        </h6>
+                        <div class="card-body">
+                            <p class="card-text">
+                                内容构件用于平台的具体内容呈现，包括但不限于以下内容的展示：
+                                (1)文本、文件、图片、音视频、业务表单等;
+                                (2)相关评论和其它相关；
+                                (3)常用图表和其它相关
+                            </p>
+                        </div>
+                    </div>
+                </div>    
+        </div>
+    </div>
+    <br>
+
+    <!--/WELCOME AREA-->
+    
+    <!--PAGE CONTENT-->
+    <div class="container" style="margin-bottom:50px;">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="card ">
+                            <div class="card-header card-header-action mt-15">
+                                <div class="media align-items-center">
+                                    <div class="media-img-wrap d-flex mr-10">
+                                        <div class="avatar avatar-sm">
+                                            <img src="qmnv-assets/img/Budda.png" alt="user" class="avatar-img rounded-circle">
+                                        </div>
+                                    </div>
+                                    <div class="media-body">
+                                        <div class="text-capitalize font-13 font-weight-500 text-dark">天道酬勤</div>
+                                        <div class="font-12">空行者</div>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center card-action-wrap">
+                                    <div class="inline-block dropdown">
+                                        <a class="dropdown-toggle no-caret" data-toggle="dropdown" href="#" aria-expanded="false" role="button"><i class="ion ion-ios-settings"></i></a>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <a class="dropdown-item" href="#">操作1</a>
+                                            <a class="dropdown-item" href="#">操作2</a>
+                                            <a class="dropdown-item" href="#">操作3</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">操作4</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row text-center">
+                                <div class="col-4 border-right pr-0">
+                                    <div class="pa-15">
+                                        <span class="d-block display-7 text-dark mb-5">154</span>
+                                        <span class="d-block text-capitalize font-14">关注</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 border-right px-0">
+                                    <div class="pa-15">
+                                        <span class="d-block display-7 text-dark mb-5">65</span>
+                                        <span class="d-block text-capitalize font-14">订阅</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 pl-0">
+                                    <div class="pa-15">
+                                        <span class="d-block display-7 text-dark mb-5">433</span>
+                                        <span class="d-block text-capitalize font-14">知识树</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between">
+                                        <span><i class="ion ion-md-calendar font-18 text-light-20 mr-10"></i><span>从事职业</span></span><span class="ml-5 text-dark">行业分析师</span>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between">
+                                        <span><i class="ion ion-md-briefcase font-18 text-light-20 mr-10"></i><span>任职机构</span></span><span class="ml-5 text-dark">量驰智能</span>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between">
+                                        <span><i class="ion ion-md-home font-18 text-light-20 mr-10"></i><span>所在城市</span></span><span class="ml-5 text-dark">上海</span>
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="d-flex justify-content-between">
+                                        <span><i class="ion ion-md-pin font-18 text-light-20 mr-10"></i><span>居住地区</span></span><span class="ml-5 text-dark">浦东新区</span>
+                                    </div>
+                                
+                                </li>
+                            </ul>
+                    </div>
+                    <div class="card card-profile-feed">
+                            <div class="card-header card-header-action">
+                                <h6><span>所在组<span class="card-badge card-badge-dark card-badge-pill ml-5">12</span></span></h6>
+                                <div class="d-flex align-items-center card-action-wrap">
+                                    <div class="inline-block dropdown">
+                                        <a class="dropdown-toggle no-caret" data-toggle="dropdown" href="#" aria-expanded="false" role="button"><i class="ion ion-ios-more"></i></a>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <a class="dropdown-item" href="#">操作1</a>
+                                            <a class="dropdown-item" href="#">操作2</a>
+                                            <a class="dropdown-item" href="#">操作3</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">操作4</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>	
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item border-0">
+                                    <div class="media align-items-center">
+                                        <div class="d-flex media-img-wrap mr-15">
+                                            <div class="avatar avatar-sm">
+                                                <img src="qmnv-assets/img/Budda.png" alt="user" class="avatar-img rounded-circle">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span class="d-block text-dark text-capitalize">心学研习</span>
+                                            <span class="d-block font-13">1.25K 会员</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item border-0">
+                                    <div class="media align-items-center">
+                                        <div class="d-flex media-img-wrap mr-15">
+                                            <div class="avatar avatar-sm">
+                                                <img src="qmnv-assets/img/Budda.png" alt="user" class="avatar-img rounded-circle">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span class="d-block text-dark text-capitalize">葡萄酒俱乐部</span>
+                                            <span class="d-block font-13">2M 会员</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item border-0">
+                                    <div class="media align-items-center">
+                                        <div class="d-flex media-img-wrap mr-15">
+                                            <div class="avatar avatar-sm">
+                                                <img src="qmnv-assets/img/Budda.png" alt="user" class="avatar-img rounded-circle">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span class="d-block text-dark text-capitalize">架构师俱乐部</span>
+                                            <span class="d-block font-13">8K 会员</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="list-group-item border-0">
+                                    <div class="media align-items-center">
+                                        <div class="d-flex media-img-wrap mr-15">
+                                            <div class="avatar avatar-sm">
+                                                <img src="qmnv-assets/img/Budda.png" alt="user" class="avatar-img rounded-circle">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <span class="d-block text-dark text-capitalize">UI设计师</span>
+                                            <span class="d-block font-13">14K 会员</span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+
+
+                <div class="col-lg-9">
+                        <section class="hk-sec-wrapper el-element-overlay">
+                            <div class="class-wrap-group">
+                                <ul class="class-box">
+                                    <li class="option-item">
+                                        <div class="option-item-wrap">
+                                            <div class="row">
+                                                <div class="col-lg-3">
+                                                    <div class="cls3-box">
+                                                        <div class="item-avatar">
+                                                            <img src="qmnv-assets/img/option1.png">
+                                                        </div>
+                                                        <div class="item-content">行业分类3</div>
+                                                        <div class="item-desc">行业分类细项用以定义第三级行业细分科目</div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-9">
+                                                    <div class="cls4-box">
+                                                        <div class="uti-box">
+                                                            <div class="row">
+                                                                <div class="col-lg-6">
+                                                                    <span class="cls4-title">4级分类</span>
+                                                                </div>
+                                                                <div class="col-lg-6">
+                                                                    <div class="uti-bar">
+                                                                        <ul >
+                                                                            <li>
+                                                                                <i class="icofont-page"></i>
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="icofont-link"></i>
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="icofont-options"></i>
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="icofont-ui-delete"></i>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="qmnv-tab-box">
+                                                            <table class="qmnv-tab1">
+                                                                <tr class="qmnv-tab-header">
+                                                                    <th>
+                                                                        第一列
+                                                                    </th>
+                                                                    <th>
+                                                                        第二列
+                                                                    </th>
+                                                                    <th>
+                                                                        第三列
+                                                                    </th>
+                                                                    <th width="150">
+                                                                        第四列
+                                                                    </th>
+                                                                </tr>
+                                                                <tr class="qmnv-row">
+                                                                    <td>11</td>
+                                                                    <td>12</td>
+                                                                    <td>13</td>
+                                                                    <td>
+                                                                        <a class="btn-in-tab"><i class="icofont-page"></i></a>
+                                                                        <a class="btn-in-tab"><i class="icofont-link"></i></a>
+                                                                        <a class="btn-in-tab"><i class="icofont-options"></i></a>
+                                                                        <a class="btn-in-tab"><i class="icofont-ui-delete"></i></a>   
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="qmnv-row">
+                                                                    <td >21</td>
+                                                                    <td >22</td>
+                                                                    <td>23</td>
+                                                                    <td>
+                                                                        <a class="btn-in-tab"><i class="icofont-page"></i></a>
+                                                                        <a class="btn-in-tab"><i class="icofont-link"></i></a>
+                                                                        <a class="btn-in-tab"><i class="icofont-options"></i></a>
+                                                                        <a class="btn-in-tab"><i class="icofont-ui-delete"></i></a>   
+                                                                    </td>
+                                                                </tr>
+                                                                <tr class="qmnv-row">
+                                                                    <td >31</td>
+                                                                    <td >32</td>
+                                                                    <td>33</td>
+                                                                    <td>
+                                                                        <a class="btn-in-tab"><i class="icofont-page"></i></a>
+                                                                        <a class="btn-in-tab"><i class="icofont-link"></i></a>
+                                                                        <a class="btn-in-tab"><i class="icofont-options"></i></a>
+                                                                        <a class="btn-in-tab"><i class="icofont-ui-delete"></i></a>   
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </section>
+
+                    <section class="hk-sec-wrapper el-element-overlay">
+                        <div class="class-wrap-group">
+                            <ul class="class-box">
+                                <li class="class-item">
+                                    <div class="class-item-wrap">
+                                        <div class="item-avatar">
+                                            <img src="qmnv-assets/img/folder2.png">
+                                        </div>
+                                        <div class="item-content">行业分类2</div>
+                                        <div class="uti-bar">
+                                            <ul >
+                                                <li>
+                                                    <i class="icofont-page"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-link"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-options"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-ui-delete"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="class-item">
+                                    <div class="class-item-wrap">
+                                        <div class="item-avatar">
+                                            <img src="qmnv-assets/img/folder3.png">
+                                        </div>
+                                        <div class="item-content">行业分类2</div>
+                                        <div class="uti-bar">
+                                            <ul >
+                                                <li>
+                                                    <i class="icofont-page"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-link"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-options"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-ui-delete"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="class-item">
+                                    <div class="class-item-wrap">
+                                        <div class="item-avatar">
+                                            <img src="qmnv-assets/img/folder4.png">
+                                        </div>
+                                        <div class="item-content">行业分类2</div>
+                                        <div class="uti-bar">
+                                            <ul >
+                                                <li>
+                                                    <i class="icofont-page"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-link"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-options"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-ui-delete"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="class-item">
+                                    <div class="class-item-wrap">
+                                        <div class="item-avatar">
+                                            <img src="qmnv-assets/img/folder5.png">
+                                        </div>
+                                        <div class="item-content">行业分类2</div>
+                                        <div class="uti-bar">
+                                            <ul >
+                                                <li>
+                                                    <i class="icofont-page"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-link"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-options"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-ui-delete"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="class-item">
+                                    <div class="class-item-wrap">
+                                        <div class="item-avatar">
+                                            <img src="qmnv-assets/img/folder6.png">
+                                        </div>
+                                        <div class="item-content">行业分类2</div>
+                                        <div class="uti-bar">
+                                            <ul >
+                                                <li>
+                                                    <i class="icofont-page"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-link"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-options"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-ui-delete"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="class-item">
+                                    <div class="class-item-wrap">
+                                        <div class="item-avatar">
+                                            <img src="qmnv-assets/img/folder.png">
+                                        </div>
+                                        <div class="item-content">行业分类2</div>
+                                        <div class="uti-bar">
+                                            <ul >
+                                                <li>
+                                                    <i class="icofont-page"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-link"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-options"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-ui-delete"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="hk-sec-wrapper el-element-overlay">
+                        <div class="class-wrap-group">
+                            <ul class="class-box">
+                                <li class="class-item">
+                                    <div class="class-item-wrap">
+                                        <div class="item-avatar">
+                                            <img src="qmnv-assets/img/music/vd10.jpg">
+                                        </div>
+                                        <div class="item-content">行业分类1</div>
+                                        <div class="uti-bar">
+                                            <ul >
+                                                <li>
+                                                <i class="icofont-page"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-link"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-options"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-ui-delete"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="class-item">
+                                    <div class="class-item-wrap">
+                                        <div class="item-avatar">
+                                            <img src="qmnv-assets/img/music/vd10.jpg">
+                                        </div>
+                                        <div class="item-content">行业分类1</div>
+                                        <div class="uti-bar">
+                                            <ul >
+                                                <li>
+                                                    <i class="icofont-page"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-link"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-options"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-ui-delete"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="class-item">
+                                    <div class="class-item-wrap">
+                                        <div class="item-avatar">
+                                            <img src="qmnv-assets/img/music/vd10.jpg">
+                                        </div>
+                                        <div class="item-content">行业分类1</div>
+                                        <div class="uti-bar">
+                                            <ul >
+                                                <li>
+                                                    <i class="icofont-page"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-link"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-options"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-ui-delete"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="class-item">
+                                    <div class="class-item-wrap">
+                                        <div class="item-avatar">
+                                            <img src="qmnv-assets/img/music/vd10.jpg">
+                                        </div>
+                                        <div class="item-content">行业分类1</div>
+                                        <div class="uti-bar">
+                                            <ul >
+                                                <li>
+                                                    <i class="icofont-page"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-link"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-options"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-ui-delete"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="class-item">
+                                    <div class="class-item-wrap">
+                                        <div class="item-avatar">
+                                            <img src="qmnv-assets/img/music/vd10.jpg">
+                                        </div>
+                                        <div class="item-content">行业分类1</div>
+                                        <div class="uti-bar">
+                                            <ul >
+                                                <li>
+                                                    <i class="icofont-page"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-link"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-options"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-ui-delete"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="class-item">
+                                    <div class="class-item-wrap">
+                                        <div class="item-avatar">
+                                            <img src="qmnv-assets/img/music/vd10.jpg">
+                                        </div>
+                                        <div class="item-content">行业分类1</div>
+                                        <div class="uti-bar">
+                                            <ul >
+                                                <li>
+                                                    <i class="icofont-page"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-link"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-options"></i>
+                                                </li>
+                                                <li>
+                                                    <i class="icofont-ui-delete"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="hk-sec-wrapper el-element-overlay">
+                        <div class="kv-table-box">
+                            <table class="kv-table">
+                                <tr>
+                                    <td class="key">11</td>
+                                    <td class="value">12</td>
+                                </tr>
+                                <tr>
+                                    <td class="key">21</td>
+                                    <td class="value">22</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+
+                    <div class="card card-refresh pa-15">
+                        <div class="ct-page-header">
+                                <div class="media align-items-center">
+                                        <div class="media-img-wrap d-flex mr-10">
+                                            <div class="avatar avatar-sm">
+                                                <img src="qmnv-assets/img/idea-2.png" alt="user" class="avatar-img rounded-circle">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <div class="text-capitalize font-18 font-weight-900 text-dark">道德经</div>
+                                            <div class="font-12">
+                                                <ul class="keypair-group font-11">
+                                                    <li><i class="icofont-user-alt-3"></i>天道酬勤</li>
+                                                    <li><i class="icofont-ui-calendar"></i>2019-03-21 15:10</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                </div>
+                        </div>
+                        <div class="ct-page-content">
+                            <div class="ct-title-box red">
+                                <div class="ct-title">
+                                    第一章
+                                </div>
+                            </div>
+                            <blockquote>
+                                《道德经》德篇第一章讲了老子心中合德归道的次序,以及社会愚昧和社会混乱的产生的根源。
+                            </blockquote>
+                            <span class="ct-color-title">第一节</span>
+                            <div class="ct-paragraph">
+                                道可道，非常道；名可名，非常名。无名，天地之始，有名，万物之母。
+                                故常无欲，以观其妙，常有欲，以观其徼。
+                                此两者，同出而异名，同谓之玄，玄之又玄，众妙之门。 
+                            </div>
+                            <div class="ct-paragraph brief">
+                                “道”如果可以用言语来表述，那它就是常“道”(“道”是可以用言语来表述的，它并非一般的“道”)；“名”如果可以用文辞去命名，那它就是常“名”(“名”也是可以说明的，它并非普通的“名”)。“无”可以用来表述天地浑沌未开之际的状况；而“有”，则是宇宙万物产生之本原的命名。因此，要常从“无”中去观察领悟“道”的奥妙；要常从“有”中去观察体会“道”的端倪。无与有这两者，来源相同而名称相异，都可以称之为玄妙、深远。它不是一般的玄妙、深奥，而是玄妙又玄妙、深远又深远，是宇宙天地万物之奥妙的总门(从“有名”的奥妙到达无形的奥妙，“道”是洞悉一切奥妙变化的门径)。
+                            </div>
+                            <hr class="ct-hr">
+                            <div class="ct-paragraph">
+                                <img class="ct-image" src="qmnv-assets/img/music/vd1.jpg">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <section class="hk-sec-wrapper">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="ml-15 mt-15">
+                                    <div class="media align-items-center mb-35">
+                                            <div class="media-img-wrap d-flex mr-10">
+                                                <div class="avatar avatar-sm">
+                                                    <img src="qmnv-assets/img/guanyin.png" alt="user" class="avatar-img rounded-circle">
+                                                </div>
+                                            </div>
+                                            <div class="media-body">
+                                                <div class="text-capitalize font-18 font-weight-900 text-dark">金刚般若波罗蜜经</div>
+                                                <div class="font-12">
+                                                    <ul class="keypair-group font-11">
+                                                        <li><i class="icofont-user-alt-3"></i>天道酬勤</li>
+                                                        <li><i class="icofont-ui-calendar"></i>2019-03-21 15:10</li>
+                                                        <li><i class="icofont-star"></i>12,023</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                    </div>
+                                        <p class="mb-25 lh-4">
+                                                第一品 法会因由分<br>
+
+                                                如是我闻，一时，佛在舍卫国祗树给孤独园，与大比丘众千二百五十人俱。尔时，世尊食时，著衣持钵，
+                                                入舍卫大城乞食。于其城中，次第乞已，还至本处。饭食讫，收衣钵，洗足已，敷座而坐。<br>
+                                                <br>
+                                                第二品 善现启请分<br>
+
+                                                时，长老须菩提在大众中即从座起，偏袒右肩，右膝着地，合掌恭敬而白佛言：“希有！世尊！如来善护念
+
+                                                诸菩萨，善付嘱诸菩萨。世尊！善男子、善女人，发阿耨多罗三藐三菩提心，应云何住，云何降伏其心？
+
+                                                ”佛言：“善哉，善哉。须菩提！如汝所说，如来善护念诸菩萨，善付嘱诸菩萨。汝今谛听！当为汝说：善
+
+                                                男子、善女人，发阿耨多罗三藐三菩提心，应如是住，如是降伏其心。”“唯然，世尊！愿乐欲闻。”<br>
+                                                <br>
+                                                <br>
+                                                第三品 大乘正宗分
+                                                <br>
+                                                佛告须菩提：“诸菩萨摩诃萨应如是降伏其心！所有一切众生之类：若卵生、若胎生、若湿生、若化生；若
+
+                                                有色、若无色；若有想、若无想、若非有想非无想，我皆令入无余涅盘而灭度之。如是灭度无量无数无边
+
+                                                众生，实无众生得灭度者。何以故？须菩提！若菩萨有我相、人相、众生相、寿者相，即非菩萨。”
+                                                <br>
+
+                                                
+                                        </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                3
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="hk-sec-wrapper el-element-overlay">
+                        <div class="content-card-collection white-box">
+
+                           
+                            <h3 class="box-title"> 
+                                <div class="seprate"></div> 
+                                流行视频
+                            </h3>
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                    <div class="el-card-item">
+                                        <div class="el-card-avatar el-overlay-1"> <img src="qmnv-assets/img/music/vd1.jpg" />
+                                            <div class="el-overlay">
+                                                <ul class="el-info">
+                                                    <li><a class="btn default btn-outline" href="video-detail.html"><i class="fa fa-play-circle-o fa-3x"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="vd-time card-badge bg-inverse hidden-xs">03:30</span>
+                                        </div>
+                                        <div class="alb-info">
+                                            <h5>The Precious</h5>
+                                            <h6 class="text-muted">Sourcerer</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                    <div class="el-card-item">
+                                        <div class="el-card-avatar el-overlay-1"> <img src="qmnv-assets/img/music/vd2.jpg" />
+                                            <div class="el-overlay">
+                                                <ul class="el-info">
+                                                    <li><a class="btn default btn-outline" href="video-detail.html"><i class="fa fa-play-circle-o fa-3x"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="vd-time card-badge bg-inverse hidden-xs">03:30</span>
+                                        </div>
+                                        <div class="alb-info">
+                                            <h5>Gold</h5>
+                                            <h6 class="text-muted">Sourcerer</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                    <div class="el-card-item">
+                                        <div class="el-card-avatar el-overlay-1"> <img src="qmnv-assets/img/music/vd4.jpg" />
+                                            <div class="el-overlay">
+                                                <ul class="el-info">
+                                                    <li><a class="btn default btn-outline" href="video-detail.html"><i class="fa fa-play-circle-o fa-3x"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="vd-time card-badge bg-inverse hidden-xs">03:30</span>
+                                        </div>
+                                        <div class="alb-info">
+                                            <h5>Hello</h5>
+                                            <h6 class="text-muted">Sourcerer</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                    <div class="el-card-item">
+                                        <div class="el-card-avatar el-overlay-1"> <img src="qmnv-assets/img/music/vd6.jpg" />
+                                            <div class="el-overlay">
+                                                <ul class="el-info">
+                                                    <li><a class="btn default btn-outline" href="video-detail.html"><i class="fa fa-play-circle-o fa-3x"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="vd-time card-badge bg-inverse hidden-xs">03:30</span>
+                                        </div>
+                                        <div class="alb-info">
+                                            <h5>The Secret</h5>
+                                            <h6 class="text-muted">Sourcerer</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                    <div class="el-card-item">
+                                        <div class="el-card-avatar el-overlay-1"> <img src="qmnv-assets/img/music/vd7.jpg" />
+                                            <div class="el-overlay">
+                                                <ul class="el-info">
+                                                    <li><a class="btn default btn-outline" href="video-detail.html"><i class="fa fa-play-circle-o fa-3x"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="vd-time card-badge bg-inverse hidden-xs">03:30</span>
+                                        </div>
+                                        <div class="alb-info">
+                                            <h5>Sensible Truth</h5>
+                                            <h6 class="text-muted">Sourcerer</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                    <div class="el-card-item">
+                                        <div class="el-card-avatar el-overlay-1"> <img src="qmnv-assets/img/music/vd8.jpg" />
+                                            <div class="el-overlay">
+                                                <ul class="el-info">
+                                                    <li><a class="btn default btn-outline" href="video-detail.html"><i class="fa fa-play-circle-o fa-3x"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="vd-time card-badge bg-inverse hidden-xs">03:30</span>
+                                        </div>
+                                        <div class="alb-info">
+                                            <h5>Column Head</h5>
+                                            <h6 class="text-muted">Sourcerer</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                    <div class="el-card-item">
+                                        <div class="el-card-avatar el-overlay-1"> <img src="qmnv-assets/img/music/vd10.jpg" />
+                                            <div class="el-overlay">
+                                                <ul class="el-info">
+                                                    <li><a class="btn default btn-outline" href="video-detail.html"><i class="fa fa-play-circle-o fa-3x"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="vd-time card-badge bg-inverse hidden-xs">03:30</span>
+                                        </div>
+                                        <div class="alb-info">
+                                            <h5>The Killer</h5>
+                                            <h6 class="text-muted">Sourcerer</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                    <div class="el-card-item">
+                                        <div class="el-card-avatar el-overlay-1"> <img src="qmnv-assets/img/music/vd11.jpg" />
+                                            <div class="el-overlay">
+                                                <ul class="el-info">
+                                                    <li><a class="btn default btn-outline" href="video-detail.html"><i class="fa fa-play-circle-o fa-3x"></i></a></li>
+                                                </ul>
+                                            </div>
+                                            <span class="vd-time card-badge bg-inverse hidden-xs">03:30</span>
+                                        </div>
+                                        <div class="alb-info">
+                                            <h5>Apollo</h5>
+                                            <h6 class="text-muted">Sourcerer</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+    </div>
+    <!--PAGE CONTENT-->
+    
+	<!--FOOTER-->
+    <footer>
+    	<div class="container">
+        	<div class="row">
+            	
+                <div class="col-lg-3">
+                	<img src="qmnv-assets/img/logo-bottom.png" alt="" />
+                	<p>量驰新视觉实验室是关注互联网应用全新用户体验的工作团队，目标是通过设计和完善,持续稳定的输出超出用户预期的新体验。
+                    量驰新视觉通过广泛的吸收和不断的创新，从而打造出新型的互联网UI基础支持服务，并按照IGOGF（智慧型成长组织治理框架）标准为对应客户提供支持。<br></p>
+                </div>
+                
+
+                <div class="col-lg-3">
+                    <p></p>
+    
+                </div>
+
+
+                <div class="col-lg-3">
+                    <h6 class="sep_bg">分析和数据</h6>
+                    <hr>
+                    <P>
+                        <i class=" icon-signal  icon-white"></i> 截止目前，发布UI元素总数：123
+                    </P>
+                    
+                </div>
+                
+
+                
+                <div class="col-lg-3">
+                    <h6 class="sep_bg">联系我们</h6>
+                    <hr>
+                    <p>
+                        <i class="icon-user  icon-white"></i> Alex Liu<br>
+                        <i class="icon-envelope icon-white"></i> doublex.org@163.com<br>
+                        <i class="icon-globe icon-white"></i> 中国.上海 浦东新区芳华路933弄 
+                    </p>
+
+                </div>
+                
+            </div>
+        </div>
+    	<hr class="bottom">
+        <div class="bottom_line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <span style="font-size:11px;">版权所有(C)上海量驰智能科技有限公司 <a href="#">链接地址</a></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/FOOTER-->
+    
+    
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script> <!--必须放在bootstrap之前-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="qmnv-assets/js/toggles.min.js"></script>
+    <script src="qmnv-assets/js/qmnv-animation.js"></script>
+    <script src="qmnv-assets/js/qmnv-panels.js"></script>
+    <script src="qmnv-assets/js/qmnv-contents.js"></script>
+    </body>
+</html>

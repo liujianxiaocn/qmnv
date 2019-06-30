@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>量驰新视觉</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="常用控件">
+        <meta name="author" content="Alex Liu">
+        
+        <!-- Le styles -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/docs.css" rel="stylesheet">
+        <link href="qmnv-assets/css/qmnv-panels.css" type="text/css" media="screen" rel="stylesheet">
+
+        
+    </head>
+
+	<body>
+	
+    <!--TOP-->
+  	<div class="top_line">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-lg-6">
+					<p class="feed "><strong>量驰智能</strong> | 因为梦想，我们在一起</p>
+    			</div>
+                <div class="col-lg-6 soc_icons">
+                    <a href="#"><div class="icon_qszg"></div></a>
+                    <a href="#"><div class="icon_xjzf"></div></a>
+                    <a href="#"><div class="icon_zywf"></div></a>
+                    <a href="#"><div class="icon_qszk"></div></a>
+                    <a href="#"><div class="icon_home"></div></a>
+                </div>
+    		</div>
+    	</div>
+    </div>
+    <!--/TOP-->
+    
+    <!--PAGE HEAD-->
+    <div class="page_head">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-lg-4">
+                	<div class="logo">
+                    	<a href="index.html"><img src="qmnv-assets/img/logo.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                	<nav>
+                	<ul id="menu">
+                            <li ><a href="qmnv-home.html">首页</a></li>
+                            <li ><a href="qmnv-layout.html">布局和版式</a></li>
+                            <li class="active"><a href="qmnv-panels.html">面板和标题</a></li>
+                            <li><a href="qmnv-contents.html">内容构件</a></li>
+                            <li><a href="qmnv-controls.html">交互构件</a></li>
+                            <li><a href="qmnv-resource.html">资源库</a></li>
+                            <li><a href="qmnv-data-visual.html">数据视觉</a></li>
+                            <li><a href="qmnv-special-effects.html">前端特效</a></li>
+                    </ul>
+                    </nav>
+                </div>
+    		</div>
+    	</div>
+    </div>
+    <!--/PAGE HEAD-->
+	
+    <!--WELCOME AREA-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card text-dark bg-light">
+                    <h6 class="card-header d-flex justify-content-between">
+                        <div>
+                            <i class="ion ion-md-paper font-30 mr-10"></i>
+                            面板和标题
+                            </div>
+                            <div>
+                            <span class="small-text">版本0.1 更新@2019.03.19</span>
+                            </div>
+
+                    </h6>
+                    <div class="card-body">
+                        <p class="card-text">
+                            面板为文本、图像、用户交互部件等内容提供容器并提供缩放、拖曳等交互功能；
+                            标题为内容提供正副标题、描述说明等信息。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!--/WELCOME AREA-->
+    
+    <!--PAGE CONTENT-->
+    <div class="container" style="margin-bottom:50px;">
+        <div class="hk-row">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card card-sm">
+                    <div class="card-body">
+                        <span class="d-block font-11 font-weight-500 text-dark text-uppercase mb-10">线上产品数</span>
+                        <div class="d-flex align-items-center justify-content-between position-relative">
+                            <div>
+                                <span class="d-block display-5 font-weight-400 text-dark">12 新增</span>
+                            </div>
+                            <div class="position-absolute r-0">
+                                <span id="pie_chart_1" class="d-flex easy-pie-chart" data-percent="86">
+                                    <span class="percent head-font">86</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card card-sm">
+                    <div class="card-body">
+                        <span class="d-block font-11 font-weight-500 text-dark text-uppercase mb-10">累计募集量</span>
+                        <div class="d-flex align-items-center justify-content-between position-relative">
+                            <div>
+                                <span class="d-block">
+                                    <span class="display-5 font-weight-400 text-dark">￥<span class="counter-anim">140,260</span></span>
+                                </span>
+                            </div>
+                            <div class="position-absolute r-0">
+                                <span id="pie_chart_2" class="d-flex easy-pie-chart" data-percent="75">
+                                    <span class="percent head-font">75</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card card-sm">
+                    <div class="card-body">
+                        <span class="d-block font-11 font-weight-500 text-dark text-uppercase mb-10">本周募集量</span>
+                        <div class="d-flex align-items-end justify-content-between">
+                            <div>
+                                <span class="d-block">
+                                    <span class="display-5 font-weight-400 text-dark">￥8,725</span>
+                                    <small>（认购+申购）</small>
+                                </span>
+                            </div>
+                            <div>
+                                <span class="text-success font-12 font-weight-600">+5%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card card-sm">
+                    <div class="card-body">
+                        <span class="d-block font-11 font-weight-500 text-dark text-uppercase mb-10">客户注册数</span>
+                        <div class="d-flex align-items-end justify-content-between">
+                            <div>
+                                <span class="d-block">
+                                    <span class="display-5 font-weight-400 text-dark">18 新增</span>
+                                </span>
+                            </div>
+                            <div>
+                                <span class="text-danger font-12 font-weight-600">12%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hk-row">
+            <div class="col-sm-12">
+                <div class="card-group hk-dash-type-2">
+                    <div class="card card-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between mb-5">
+                                <div>
+                                    <span class="d-block font-15 text-dark font-weight-500">客户存量</span>
+                                </div>
+                                <div>
+                                    <span class="text-success font-14 font-weight-500">+10%</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="d-block display-4 text-dark mb-5">168M</span>
+                                <small class="d-block">172,458 目标用户</small>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="card card-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between mb-5">
+                                <div>
+                                    <span class="d-block font-15 text-dark font-weight-500">日事务处理</span>
+                                </div>
+                                <div>
+                                    <span class="text-success font-14 font-weight-500">+12.5%</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="d-block display-4 text-dark mb-5"><span class="counter-anim">168,856</span></span>
+                                <small class="d-block">峰值：472,458</small>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="card card-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between mb-5">
+                                <div>
+                                    <span class="d-block font-15 text-dark font-weight-500">新增合约数</span>
+                                </div>
+                                <div>
+                                    <span class="text-warning font-14 font-weight-500">-2.8%</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="d-block display-4 text-dark mb-5">73</span>
+                                <small class="d-block">本周新增100</small>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="card card-sm">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between mb-5">
+                                <div>
+                                    <span class="d-block font-15 text-dark font-weight-500">赢率</span>
+                                </div>
+                                <div>
+                                    <span class="text-danger font-14 font-weight-500">-75%</span>
+                                </div>
+                            </div>
+                            <div>
+                                <span class="d-block display-4 text-dark mb-5">48:65</span>
+                                <small class="d-block">目标值 42:32</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>	
+        </div>
+
+        <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card card-refresh">
+                        <div class="refresh-container">
+                            <div class="loader-pendulums"></div>
+                        </div>
+                        <div class="card-header card-header-action">
+                            <h6>命令行模式</h6>
+                            <div class="d-flex align-items-center card-action-wrap">
+                                <a class="inline-block mr-15" data-toggle="collapse" href="#collapse_1" aria-expanded="true">
+                                    <i class="zmdi zmdi-chevron-down"></i>
+                                </a>
+                                <div class="inline-block dropdown mr-15">
+                                    <a class="dropdown-toggle no-caret" data-toggle="dropdown" href="#" aria-expanded="false" role="button"><i class="ion ion-md-more"></i></a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="profile.html"><i class="dropdown-icon zmdi zmdi-account"></i><span>操作1</span></a>
+                                        <a class="dropdown-item" href="#"><i class="dropdown-icon zmdi zmdi-card"></i><span>操作2</span></a>
+                                        <a class="dropdown-item" href="inbox.html"><i class="dropdown-icon zmdi zmdi-email"></i><span>操作3</span></a>
+                                        <a class="dropdown-item" href="#"><i class="dropdown-icon zmdi zmdi-settings"></i><span>操作4</span></a>
+                                    </div>
+                                </div>
+                                <a href="#" class="inline-block refresh mr-15">
+                                    <i class="ion ion-md-radio-button-off"></i>
+                                </a>
+                                <a href="#" class="inline-block full-screen mr-15">
+                                    <i class="ion ion-md-expand"></i>
+                                </a>
+                                <a class="inline-block card-close" href="#" data-effect="fadeOut">
+                                    <i class="ion ion-md-close"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div id="collapse_1" class="collapse show">
+                            <div class="card-body">
+                                <div class="media">
+                                    
+                                    <div class="media-img-wrap d-flex mr-15">
+                                            <div class="avatar avatar-sm">
+                                                <span class="avatar-text avatar-text-inv-primary rounded-circle"><span class="initial-wrap"><span>NT</span></span></span>
+                                            </div>
+                                        </div>
+                                    <div class="media-body">
+                                        <h6 class="mb-5">让你人生瞬间豁然开朗的格言</h6> 
+                                        <span class="d-block">Alex 2019-03-20 15:00</span><br>
+                                    
+                                        1.什么叫见过大世面？<br>
+                                        能享受最好的，能承受最坏的。<br>
+                                        2. 你交朋友的标准是什么？<br>
+                                        出世的智者，入世的强者，或者正常阳光的普通人。<br>
+                                        3. 怎么定义“想清楚了”？<br>
+                                        “想清楚了”就是以后出了什么问题，只能谴责自己，再也不能抱怨别人。<br>
+                                        4. “别让孩子输在起跑线上”有道理吗？<br>
+                                        一辈子都要和别人去比较，是人生悲剧的源头。<br>
+                                        5. 做哪些事情可以提升生活品质？<br>
+                                        定期扔東西。<br>
+                                        6. 你最希望自己年轻的时候，该知道哪些道理？<br>
+                                        内心的感受，比外面的大道理重要。<br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card">
+                            <div class="card-header card-header-action">
+                                <h6>下拉菜单模式</h6>
+                                <div class="d-flex align-items-center card-action-wrap">
+                                    <div class="dropdown">
+                                        <button aria-expanded="false" data-toggle="dropdown" class="btn btn-sm dropdown-toggle " type="button"><span class="caret"></span></button>
+                                        <div role="menu" class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">菜单1</a>
+                                            <a class="dropdown-item" href="#">菜单2</a>
+                                            <a class="dropdown-item" href="#">菜单3</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">菜单4</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="card-body">
+                            <div class="user-activity user-activity-sm">
+                                    <div class="media">
+                                        <div class="media-img-wrap">
+                                            <div class="avatar avatar-xs">
+                                                <img src="qmnv-assets/img/avator.png" alt="user" class="avatar-img rounded-circle">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <div>
+                                                <span class="d-block mb-5"><span class="font-weight-500 text-dark text-capitalize">哪些技能，经过较短时间的学习，就可以给人的生活带来巨大帮助？</span><span class="pl-5">夸奖他人。</span></span>
+                                                <span class="d-block font-13">3 hours ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-img-wrap">
+                                            <div class="avatar avatar-xs">
+                                                <img src="qmnv-assets/img/avator.png" alt="user" class="avatar-img rounded-circle">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <div>
+                                                <span class="d-block mb-5"><span class="font-weight-500 text-dark text-capitalize">同样是别人比自己强，为什么有时会产生嫉妒，而有时会产生崇拜？</span><span class="pl-5">近的会嫉妒，远的会崇拜；够得着的会嫉妒，够不着的会崇拜；有利益冲突的会嫉妒，没利益冲突的会崇拜。</span></span>
+                                                <span class="d-block font-13 mb-10">6 hours ago</span>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#" class="w-75p mr-10"><img class="card-img-top rounded" src="qmnv-assets/img/minus.jpg" alt="Card image cap"></a>
+                                                <a href="#" class="w-75p mr-10"><img class="card-img-top rounded" src="qmnv-assets/img/minus.jpg" alt="Card image cap"></a>
+                                                <a href="#" class="w-75p mr-10"><img class="card-img-top rounded" src="qmnv-assets/img/minus.jpg" alt="Card image cap"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-img-wrap">
+                                            <div class="avatar avatar-xs">
+                                                <span class="avatar-text avatar-text-info rounded-circle">
+                                                        <span class="initial-wrap"><span>B</span></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <div>
+                                                <span class="d-block mb-5"><span class="font-weight-500 text-dark text-capitalize">对自由的理解是什么？</span><span class="pl-5">说“不”的能力。</span></span>
+                                                <span class="d-block font-13">3 days ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-img-wrap">
+                                            <div class="avatar avatar-xs">
+                                                <img src="qmnv-assets/img/avator.png" alt="user" class="avatar-img rounded-circle">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <div>
+                                                <span class="d-block mb-5"><span class="font-weight-500 text-dark text-capitalize">如何让这个世界变得美好？</span><span class="pl-5">先让你自己变得更美好。</span></span>
+                                                <span class="d-block font-13">3 hours ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-img-wrap">
+                                            <div class="avatar avatar-xs">
+                                                <span class="avatar-text avatar-text-success rounded-circle">
+                                                        <span class="initial-wrap"><span>M</span></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <div>
+                                                <span class="d-block mb-5"><span class="font-weight-500 text-dark text-capitalize">如何正确理解“是非观”？</span><span class="pl-5">很多事情只是不同，并无是非。</span></span>
+                                                <span class="d-block font-13 mb-10">6 hours ago</span>
+                                            </div>
+                                            <div class="d-flex">
+                                                <a href="#" class="w-75p mr-10"><img class="card-img-top rounded" src="qmnv-assets/img/avator.png" alt="Card image cap"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-img-wrap">
+                                            <div class="avatar avatar-xs">
+                                                <img src="qmnv-assets/img/avator.png" alt="user" class="avatar-img rounded-circle">
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <div>
+                                                <span class="d-block mb-5"><span class="font-weight-500 text-dark text-capitalize">你心中的完美爱情是怎么样的？</span><span class="pl-5">可以有不完美。</span></span>
+                                                <span class="d-block font-13">3 hours ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="media">
+                                        <div class="media-img-wrap">
+                                            <div class="avatar avatar-xs">
+                                                <span class="avatar-text avatar-text-primary rounded-circle">
+                                                        <span class="initial-wrap"><span>J</span></span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="media-body">
+                                            <div>
+                                                <span class="d-block mb-5"><span class="font-weight-500 text-dark text-capitalize">把学费拿来念书，还是环游世界更合适？</span><span class="pl-5">在没有充分知识的前提下，即使行了万里路，也不过是邮差而已。</span></span>
+                                                <span class="d-block font-13 mb-10">2 days ago</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12">
+                    <div class="card">
+                        <div class="card-header card-header-action">
+                            <h6>开关模式</h6>
+                            <div class="d-flex align-items-center card-action-wrap">
+                                <div class="toggle toggle-simple toggle-light toggle-sm toggle-bg-primary toggle1"></div>
+                            </div>
+                        </div>   
+                        <div class="accordion accordion-type-2 accordion-flush" id="accordion_2">
+                                <div class="card">
+                                    <div class="card-header d-flex justify-content-between activestate">
+                                        <a role="button" data-toggle="collapse" href="#collapse_1i" aria-expanded="true">如何走出人生的阴霾？</a>
+                                    </div>
+                                    <div id="collapse_1i" class="collapse show" data-parent="#accordion_2" role="tabpanel">
+                                        <div class="card-body pa-15">多走几步。</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header d-flex justify-content-between">
+                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse_2i" aria-expanded="false">怎样做到“不抱怨”？</a>
+                                    </div>
+                                    <div id="collapse_2i" class="collapse" data-parent="#accordion_2">
+                                        <div class="card-body pa-15">自知者不怨人，知命者不怨天。</div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header d-flex justify-content-between">
+                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse_3i" aria-expanded="false">什么样的人活得最幸福？</a>
+                                    </div>
+                                    <div id="collapse_3i" class="collapse" data-parent="#accordion_2">
+                                        <div class="card-body pa-15">
+                                            不攀比的人。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header d-flex justify-content-between">
+                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse_4i" aria-expanded="false">
+                                            人这一生为什么要努力？
+                                        </a>
+                                    </div>
+                                    <div id="collapse_4i" class="collapse" data-parent="#accordion_2">
+                                        <div class="card-body pa-15">
+                                            让自己有拒绝别人的能力，让自己对人生多一点控制力。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header d-flex justify-content-between">
+                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse_5i" aria-expanded="false">
+                                            要怎样努力，才能成为很厉害的人？
+                                        </a>
+                                    </div>
+                                    <div id="collapse_5i" class="collapse" data-parent="#accordion_2">
+                                        <div class="card-body pa-15">
+                                            只要埋头过完自己的坎，自然有人会分心落后。最后你自然就是一个很厉害的人。
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header d-flex justify-content-between">
+                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapse_6i" aria-expanded="false">
+                                            前半生与后半生的分界线是在哪里？
+                                        </a>
+                                    </div>
+                                    <div id="collapse_6i" class="collapse" data-parent="#accordion_2">
+                                        <div class="card-body pa-15">
+                                            此时此刻。
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!--PAGE CONTENT-->
+    
+	<!--FOOTER-->
+    <footer>
+    	<div class="container">
+        	<div class="row">
+            	
+                <div class="col-lg-3">
+                	<img src="qmnv-assets/img/logo-bottom.png" alt="" />
+                	<p>量驰新视觉实验室是关注互联网应用全新用户体验的工作团队，目标是通过设计和完善,持续稳定的输出超出用户预期的新体验。
+                    量驰新视觉通过广泛的吸收和不断的创新，从而打造出新型的互联网UI基础支持服务，并按照IGOGF（智慧型成长组织治理框架）标准为对应客户提供支持。<br></p>
+                </div>
+                
+
+                <div class="col-lg-3">
+                    <p></p>
+    
+                </div>
+
+
+                <div class="col-lg-3">
+                    <h6 class="sep_bg">分析和数据</h6>
+                    <hr>
+                    <P>
+                        <i class=" icon-signal  icon-white"></i> 截止目前，发布UI元素总数：123
+                    </P>
+                    
+                </div>
+                
+
+                
+                <div class="col-lg-3">
+                    <h6 class="sep_bg">联系我们</h6>
+                    <hr>
+                    <p>
+                        <i class="icon-user  icon-white"></i> Alex Liu<br>
+                        <i class="icon-envelope icon-white"></i> doublex.org@163.com<br>
+                        <i class="icon-globe icon-white"></i> 中国.上海 浦东新区芳华路933弄 
+                    </p>
+
+                </div>
+                
+            </div>
+        </div>
+    	<hr class="bottom">
+        <div class="bottom_line">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <span style="font-size:11px;">版权所有(C)上海量驰智能科技有限公司 <a href="#">链接地址</a></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/FOOTER-->
+    
+    
+
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script> <!--必须放在bootstrap之前-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="qmnv-assets/js/toggles.min.js"></script>
+    <script src="qmnv-assets/js/qmnv-animation.js"></script>
+
+    <!--最后放页面.js文件-->
+    <script src="qmnv-assets/js/qmnv-panels.js"></script>
+    <script src="qmnv-assets/js/qmnv-panesl-init.js"></script>
+
+    </body>
+</html>
